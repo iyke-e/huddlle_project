@@ -346,7 +346,7 @@ p{
         align-items: center;
         padding: 20px 10px;
         background-color: var(--PBlue);
-        height: 60vh;
+        height: 550px;
     }
     .grow div {
         margin: 0;
@@ -365,7 +365,7 @@ p{
     }
     .grow p {
         margin-top: 10px;
-        padding-bottom: 8vh;
+        padding-bottom: 80px;
         text-align: center;
         padding: 0 19px;
 
@@ -409,7 +409,7 @@ p{
         flex-direction: column-reverse;
         justify-content: space-between;
         align-items: center;
-        padding: 0 6vw;
+        padding: 0 30px;
         background-color: var(--PBlue);
     }
     .user-bg-top {
