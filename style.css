@@ -42,10 +42,12 @@ p{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 70vh;
+    height: 500px;
 }
 
-
+.landing-page h1{
+    text-align: center;
+}
 .landing-page p{
     padding: 3vh;
     line-height: 1.5;
@@ -119,7 +121,7 @@ p{
 
 
 .grow img{
-    width: 400px;
+    width: 500px;
     padding: 30px 0;
 }
 .grow p{
@@ -143,7 +145,7 @@ p{
     margin: 0 50px;
 }
 .flow img{
-    width: 400px;
+    width: 500px;
 }
 .flow p{
     padding-top: 10px;
@@ -166,7 +168,7 @@ p{
     margin: 0 50px;
 }
 .user img{
-    width: 400px;
+    width: 500px;
     padding: 30px 0;
 }
 .user p{
@@ -221,7 +223,7 @@ p{
     padding: 80px;
     background-color: var(--DCyan);
     color: #fff;
-    height: 70vh;
+    height: 500px;
 }
 
 .footer .footer-col1 .col1 svg{
@@ -276,8 +278,7 @@ p{
 
 
 
-
-@media (max-width:500px) {
+@media (max-width:600px) {
     h1{
         font-size: 20px;
         text-align: center;
@@ -307,7 +308,8 @@ p{
     .landing-page h1{
         font-size: 30px;
         text-align: center;
-        padding: 0 20px;
+        padding: 0;
+        width: 350px;
     }
     .landing-page p br{
         display: none;
@@ -336,7 +338,7 @@ p{
         background-size: contain;
         background-position: right 0 bottom 0;
         width: 100%;
-        height: 150px;
+        height: 200px;
         
     }
     .grow {
@@ -418,7 +420,7 @@ p{
         background-size: contain;
         background-position: right 0 bottom 0;
         width: 100%;
-        height: 50vw;
+        height: 250px;
     }
     .user img {
         width: 300px;
@@ -437,6 +439,14 @@ p{
         text-align: center;
         padding: 10 19px ;
         margin-bottom: 40px;
+    }
+    .user-bg-bottom {
+        background: url(images/bg-section-bottom-mobile-2.svg);
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-position: right 0 top 0;
+        width: 100%;
+        height: 180px;
     }
     .ready {
         display: flex;
@@ -510,6 +520,189 @@ p{
         margin: 3vh 0;
         font-size: 30px;
     }
-  
-  
+}
+
+@media screen and (min-width: 601px) and (max-width:800px){
+    .header {
+        margin: 30px;
+    }
+    .landing-page h1{
+        width: 480px;
+    }
+    .landing-page p {
+        padding:  30px;
+        width: 500px;
+    }
+    .landing-page p br{
+        display: none;
+    }
+    .screen img {
+        width: 480px;
+    }
+    .communities {
+        margin: 10px;
+    }
+    .communities div {
+        padding: 0 40px;
+    }
+    .grow {
+        height: 300px;
+    }
+    .grow div {
+        margin: 0 20px;
+    }
+    .grow img {
+        width: 300px;
+        padding: 30px 0;
+    }
+    .grow h1{
+        font-size: 30px;
+    }
+    .grow p br{
+        display: none;
+    }
+    .flow {
+        padding: 10px 0px;
+    }
+    .flow div {
+        margin: 0 30px;
+    }
+    .flow img {
+        width: 300px;
+    }
+    .flow h1{
+        font-size: 30px;
+    }
+    .flow p br{
+        display: none;
+    }
+    .user-bg-top {
+        height: 150px;
+    }
+    .user img{
+        width: 300px;
+    }
+    .user h1{
+        font-size: 30px;
+    }
+    .user p br{
+        display: none;
+    }
+    .user div {
+        margin: 0 20px;
+    }
+    .ready {
+        padding: 50px 10px;
+        flex-direction: column;
+    }
+    .ready h1 {
+        margin: 50px 0;
+        width: 500px;
+        text-align: center;
+    }
+    .bg-footer-top {
+        height: 200px;
+    }
+    .footer {
+        justify-content: center;
+        padding: 70px 30px;
+        min-height: 400px;
+    }
+    
+    .footer-col2 .email {
+        align-items: flex-end;
+        flex-direction: column;
+    }
+    .footer .footer-col1{
+        margin-right: 30px;
+    }
+    .footer .footer-col2{
+        margin-left: 30px;
+    }
+    .footer .footer-col1 .col1 p  br{
+        display: none;
+    }
+    .footer-col2 p br {
+        display: none;
+    }
+    .footer-col2 .email input {
+       margin-bottom: 20px;
+    }
+}
+
+
+@media screen and (min-width: 801px) and (max-width:1000px){
+    .landing-page h1 {
+       width: 600px;
+    }
+    .screen img {
+        width: 700px;
+    }
+    .communities div {
+        padding: 0 60px;
+    }
+    .grow div {
+        margin: 0 30px;
+    }
+    .grow img{
+        width: 400px;
+    }
+    .grow p br{
+        display: none;
+    }
+    .flow {
+        padding: 60px 0px;
+    }
+    .flow div {
+        margin: 0 30px;
+    }
+    .flow img{
+        width: 400px;
+    }
+    .flow p br{
+        display: none;
+    }
+    .user div {
+        margin: 0 30px;
+    }
+    .user img{
+        width: 400px;
+    }
+    .user p br {
+        display: none;
+    }
+    .ready {
+        padding: 30px 10px;
+        flex-direction: column;
+    }
+    .ready h1 {
+        margin: 70px 0;
+        width: 600px;
+        text-align: center;
+    }
+    .bg-footer-top {
+        height: 200px;
+    }
+    .footer{
+        padding: 100px 0px;
+    }
+    .footer-col2 .email {
+        align-items: flex-end;
+        flex-direction: column;
+    }
+    .footer .footer-col1{
+        margin-right: 30px;
+    }
+    .footer .footer-col2{
+        margin-left: 30px;
+    }
+    .footer .footer-col1 .col1 p  br{
+        display: none;
+    }
+    .footer-col2 p br {
+        display: none;
+    }
+    .footer-col2 .email input {
+       margin-bottom: 20px;
+    }
 }
